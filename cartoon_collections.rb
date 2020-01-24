@@ -1,3 +1,5 @@
+binding.pry
+
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(dwarves)
