@@ -1,4 +1,4 @@
-binding.pry
+require "pry"
 
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
