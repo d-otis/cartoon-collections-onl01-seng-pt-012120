@@ -16,6 +16,6 @@ end
 def find_the_cheese(coll)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  coll.find {|item| item.any?(cheese_types)}
   
 end
