@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(elements)
   # Your code here
+  elements.collect {|element| "#{element.cap}"}
 end
 
 def long_planeteer_calls# code an argument here
